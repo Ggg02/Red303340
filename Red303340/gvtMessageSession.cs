@@ -10,20 +10,28 @@ namespace Red303340
     class gvtMessageSession
     {
         public MessageBasedSession mbSession;
-        public void InstrumentConnect(string connectStr)
+        public string connectStr;
+        public bool isConnect=false;
+        public bool InstrumentConnect(string connectStr)
         {
+            bool connect = false;
             try
             {
                 mbSession = (MessageBasedSession)ResourceManager.GetLocalManager().Open(connectStr);
+                connect = true;
+                isConnect = connect;
             }
             catch (InvalidCastException)
             {
+                connect = false;
                 MessageBox.Show(connectStr + "Resource selected must be a message-based session");
             }
             catch (Exception exp)
             {
+                connect = false;
                 MessageBox.Show(connectStr + exp.Message);
             }
+            return connect;
         }
         private string ReplaceCommonEscapeSequences(string s)
         {
@@ -61,6 +69,21 @@ namespace Red303340
                 MessageBox.Show(exp.Message);
             }
         }
+        public string QuerrySessionQ(string s)
+        {
+            string rs = "";
+            string ss = ReplaceCommonEscapeSequences(s);
+            string responseString = mbSession.Query(ss);
+            try {
+                rs = InsertCommonEscapeSequences(responseString);
+        }
+            catch(Exception exp)
+            {
+                MessageBox.Show(exp.Message);
+            }
+            return rs;
+
+}
         public string QuerrySession(string s)
         {
             string rs = "";

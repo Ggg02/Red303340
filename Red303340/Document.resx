@@ -1,0 +1,1589 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>ETSI EN 303 340 V1.1.2 (2016-09)
+
+
+Digital Terrestrial TV Broadcast Receivers;
+Harmonised Standard covering the essential requirements of article 3.2 of Directive 2014/53/EU
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+®
+ 
+
+
+
+
+
+
+
+Reference
+REN/ERM-TG17-14-CR
+
+Keywords
+digital, radio, receiver, TV
+
+
+
+
+
+
+
+ETSI
+
+650 Route des Lucioles
+F-06921 Sophia Antipolis Cedex - FRANCE
+ 
+
+Tel.: +33 4 92 94 42 00   Fax: +33 4 93 65 47 16
+
+Siret N° 348 623 562 00017 - NAF 742 C
+Association à but non lucratif enregistrée à la Sous-Préfecture de Grasse (06) N° 7803/88
+
+
+
+
+
+
+
+
+Important notice
+ 
+
+The present document can be downloaded from: http://www.etsi.org/standards-search
+
+The present document may be made available in electronic versions and/or in print. The content of any electronic and/or print versions of the present document shall not be modified without the prior written authorization of ETSI. In case of any existing or perceived difference in contents between such versions and/or in print, the only prevailing document is the print of the Portable Document Format (PDF) version kept on a specific network drive within ETSI Secretariat.
+
+Users of the present document should be aware that the document may be subject to revision or change of status.
+Information on the current status of this and other ETSI documents is available at https://portal.etsi.org/TB/ETSIDeliverableStatus.aspx
+
+If you find errors in the present document, please send your comment to one of the following services: https://portal.etsi.org/People/CommiteeSupportStaff.aspx
+
+Copyright Notification
+ 
+
+No part may be reproduced or utilized in any form or by any means, electronic or mechanical, including photocopying and microfilm except as authorized by written permission of ETSI.
+The content of the PDF version shall not be modified without the written authorization of ETSI. The copyright and the foregoing restriction extend to reproduction in all media.
+
+© European Telecommunications Standards Institute 2016.
+All rights reserved.
+
+DECTTM, PLUGTESTSTM, UMTSTM and the ETSI logo are Trade Marks of ETSI registered for the benefit of its Members.
+3GPPTM and LTE™ are Trade Marks of ETSI registered for the benefit of its Members and of the 3GPP Organizational Partners.
+GSM® and the GSM logo are Trade Marks registered and owned by the GSM Association.
+ 
+
+
+ 
+Contents
+
+Intellectual Property Rights	5
+Foreword	5
+Modal verbs terminology	5
+1	Scope	6
+2	References	6
+2.1	Normative references	6
+2.2	Informative references	6
+3	Definitions, symbols, and abbreviations	7
+3.1	Definitions	7
+3.2	Symbols	8
+3.3	Abbreviations	9
+4	Technical requirements specifications	9
+4.1	Environmental profile	9
+4.2	Conformance requirements	10
+4.2.1	DVB-T and DVB-T2 configurations for testing	10
+4.2.2	Interference and wanted test signals	11
+4.2.3	Sensitivity	11
+4.2.3.1	Definition	11
+4.2.3.2	Method of Measurement	11
+4.2.3.2.1	Test arrangement description	11
+4.2.3.2.2	Test procedure	11
+4.2.3.3	Limits	12
+4.2.4	Adjacent channel selectivity	12
+4.2.4.1	Definition	12
+4.2.4.2	Method of Measurement	13
+4.2.4.2.1	Test arrangement description	13
+4.2.4.2.2	Requirements for the ACLR of the interfering signal	13
+4.2.4.2.3	Test procedure	13
+4.2.4.3	Limits	15
+4.2.5	Blocking	16
+4.2.5.1	Definition	16
+4.2.5.2	Method of Measurement	16
+4.2.5.2.1	Test arrangement description	16
+4.2.5.2.2	Requirements for the ACLR of the interfering signal	16
+4.2.5.2.3	Test procedure	16
+4.2.5.3	Limits	16
+4.2.6	Overloading	17
+4.2.6.1	Definition	17
+4.2.6.2	Method of Measurement	17
+4.2.6.2.1	Test arrangement description	17
+4.2.6.2.2	Requirements for the ACLR of the interfering signal	17
+4.2.6.2.3	Test procedure	17
+4.2.6.3	Limits	18
+4.2.7	Unwanted emissions in the spurious domain	18
+4.2.7.1	Definition	18
+4.2.7.2	Method of Measurement	19
+4.2.7.3	Limits	19
+5	Testing for compliance with technical requirements	19
+5.1	Environmental conditions for testing	19
+5.2	Interpretation of the measurement results	19
+Annex A (normative):	Relationship between the present document and the essential
+requirements of Directive 2014/53/EU	20
+ 
+Annex B (informative):	Summary of study work	21
+B.1	Overview	21
+B.2	Selection of interferer waveforms	21
+B.2.1	UE waveform	21
+B.2.2	BS waveforms	22
+B.3	Reception conditions for LTE UE 700 MHz interference	24
+B.3.1	Calculation of maximum coupling gain	24
+B.3.2	Calculation of maximum received UE interference power	25
+B.4	Choice of BS interference power in receiver tests	25
+Annex C (informative):	Measurement records	26
+Annex D (informative):	Additional information to assist measurements	28
+D.1	Optional elements of the test arrangement	28
+D.2	Instrument settings for measuring the power of bursty interference signals	28
+D.3	Improving ACLR	28
+D.4	Measuring ACLR	29
+Annex E (normative):	Applicable tests	30
+E.1	Applicable tests for different receiver variants	30
+Annex F (normative):	Requirements for the interfering signal minimum ACLR	31
+Annex G (informative):	Change History	32
+History	33
+ 
+Intellectual Property Rights
+IPRs essential or potentially essential to the present document may have been declared to ETSI. The information pertaining to these essential IPRs, if any, is publicly available for ETSI members and non-members, and can be found in ETSI SR 000 314: "Intellectual Property Rights (IPRs); Essential, or potentially Essential, IPRs notified to ETSI in respect of ETSI standards", which is available from the ETSI Secretariat. Latest updates are available on the ETSI Web server (https://ipr.etsi.org/).
+Pursuant to the ETSI IPR Policy, no investigation, including IPR searches, has been carried out by ETSI. No guarantee can be given as to the existence of other IPRs not referenced in ETSI SR 000 314 (or the updates on the ETSI Web server) which are, or may be, or may become, essential to the present document.
+Foreword
+This Harmonised European Standard (EN) has been produced by ETSI Technical Committee Electromagnetic compatibility and Radio spectrum Matters (ERM).
+
+The present document has been prepared under the Commission's standardisation request C(2015) 5376 final [i.11] to provide one voluntary means of conforming to the essential requirements of Directive 2014/53/EU on the harmonisation of the laws of the Member States relating to the making available on the market of radio equipment and repealing Directive 1999/5/EC [i.3].
+
+Once the present document is cited in the Official Journal of the European Union under that Directive, compliance with the normative clauses of the present document given in table A.1 confers, within the limits of the scope of the present document, a presumption of conformity with the corresponding essential requirements of that Directive, and associated EFTA regulations.
+
+The present document has a number of interference test data files that are contained in archive en_303340v010102p0.zip which accompanies the present document.
+
+
+
+Modal verbs terminology
+
+In the present document "shall", "shall not", "should", "should not", "may", "need not", "will", "will not", "can" and "cannot" are to be interpreted as described in clause 3.2 of the ETSI Drafting Rules (Verbal forms for the expression of provisions).
+
+"must" and "must not" are NOT allowed in ETSI deliverables except when used in direct citation.
+ 
+
+
+ 
+1	Scope
+
+The present document applies to digital terrestrial television broadcast receivers fitted with an external antenna input (tuner port) capable of receiving DVB-T and/or DVB-T2 signals. Receivers without external antenna connectors, receivers with diversity, and receivers intended for mobile or automotive reception are not covered by the present document.
+
+The present document contains the requirements for digital terrestrial television broadcast receivers to meet the essential requirements of article 3.2 of Directive 2014/53/EU [i.3] that radio equipment both effectively uses and supports the efficient use of radio spectrum in order to avoid harmful interference.
+
+The present document includes considerations of interference from LTE transmissions in the 700 MHz and 800 MHz bands and DTT transmissions in UHF band IV. The requirements of the installation system (antenna, feeder cable, amplifiers, etc.) are not addressed.
+
+Table 1: Broadcast frequency bands
+
+Broadcast frequency bands
+VHF III
+UHF IV and V
+
+There are country specific variations of frequency usage for digital terrestrial television reception and other users such as mobile broadband.
+
+The tests in the present document only apply if the DTT broadcast receiver supports the wanted signal configuration used by the test in question. The applicable tests are summarized in annex E, table E.1.
+
+
+2	References
+
+2.1	Normative references
+References are either specific (identified by date of publication and/or edition number or version number) or
+non-specific. For specific references, only the cited version applies. For non-specific references, the latest version of the referenced document (including any amendments) applies.
+
+Referenced documents which are not found to be publicly available in the expected location might be found at http://docbox.etsi.org/Reference.
+
+NOTE:	While any hyperlinks included in this clause were valid at the time of publication, ETSI cannot guarantee their long term validity.
+The following referenced documents are necessary for the application of the present document.
+
+[1]	CENELEC EN 55032:2015: "Electromagnetic compatibility of multimedia equipment. Emission requirements".
+
+2.2	Informative references
+References are either specific (identified by date of publication and/or edition number or version number) or
+non-specific. For specific references, only the cited version applies. For non-specific references, the latest version of the referenced document (including any amendments) applies.
+
+NOTE:	While any hyperlinks included in this clause were valid at the time of publication, ETSI cannot guarantee their long term validity.
+The following referenced documents are not necessary for the application of the present document but they assist the user with regard to a particular subject area.
+ 
+
+[i.1]	Nordig: "NorDig Unified Test Plan for Integrated Receiver Decoders v2.4".
+
+[i.2]	British Broadcasting Corporation and Arqiva, WHP288: "WSD Coexistence Testing at the Building Research Establishment: An Experimental Validation of Ofcom Regulatory Proposals".
+
+[i.3]	Directive 2014/53/EU of the European Parliament and of the Council of 16 April 2014 on the harmonisation of the laws of the Member States relating to the making available on the market of radio equipment and repealing Directive 1999/5/EC.
+[i.4]	ETSI EN 300 744 (V1.6.1): "Digital Video Broadcasting (DVB); Framing structure, channel coding and modulation for digital terrestrial television".
+
+[i.5]	ETSI EN 302 755 (V1.3.1): "Digital Video Broadcasting (DVB); Frame structure channel coding and modulation for a second generation digital terrestrial television broadcasting system (DVB- T2)".
+[i.6]	ETSI TR 100 028-1 (V1.4.1): "Electromagnetic compatibility and Radio spectrum Matters (ERM); Uncertainties in the measurement of mobile radio equipment characteristics; Part 1".
+
+[i.7]	ETSI TR 100 028-2 (V1.4.1): "Electromagnetic compatibility and Radio spectrum Matters (ERM); Uncertainties in the measurement of mobile radio equipment characteristics; Part 2".
+[i.8]	CEPT/ERC/Recommendation 74-01E (2011): "Unwanted emissions in the spurious domain".  [i.9]	ECC Report 186 (2013): "Technical and operational requirements for the operation of white space
+devices under geo-location approach".
+
+[i.10]	Recommendation ITU-R BT.1729 (2005): "Common 16:9 or 4:3 aspect ratio digital television reference test pattern".
+
+[i.11]	Commission Implementing Decision C(2015) 5376 final of 4.8.2015 on a standardisation request to the European Committee for Electrotechnical Standardisation and to the European Telecommunications Standards Institute as regards radio equipment in support of Directive 2014/53/EU of the European Parliament and of the Council.
+
+[i.12]	Recommendation ITU-R BT.419-3 (1990): "Directivity and polarization discrimination of antennas in the reception of television broadcasting".
+
+
+3	Definitions, symbols, and abbreviations
+
+3.1	Definitions
+For the purposes of the present document, the following terms and definitions apply:
+
+Adjacent Channel Leakage power Ratio (ACLR): ratio of the on-channel transmit power to the power measured in one of the adjacent channels with no active channel in the adjacent channel
+
+NOTE:	In the present document this definition also applies to an unwanted signal at a specified frequency offset in a non-adjacent channel.
+
+adjacent channel selectivity: measure of the capability of the receiver to receive a wanted modulated signal without exceeding a given degradation due to the presence of an unwanted signal which differs in frequency from the wanted signal by an amount equal to the adjacent channel separation for which the equipment is intended
+
+NOTE 1: In the present document adjacent channel selectivity is determined by the onset of picture degradation.
+
+NOTE 2: The interference power I is equal to the licensed power of the interferer. This definition does not have the same meaning as the term "Adjacent Channel Selectivity" (ACS) used in other organizations such as ITU, CEPT, and in co-existence studies. The adjacent channel selectivity in the present document is equivalent to the measured I/C ratio.
+ 
+
+NOTE 3: In the present document this definition also applies to an unwanted signal at a specified frequency offset in a non-adjacent channel.
+
+blocking or desensitization: measure of the capability of the receiver to receive a wanted modulated signal without exceeding a given degradation due to the presence of an unwanted signal at any frequency other than those of the spurious responses or of the adjacent channels
+
+NOTE 1:  In the present document receiver blocking is determined by the onset of picture degradation.
+NOTE 2: The wanted signal level in the blocking tests of the present document is set at the specified receiver sensitivity level plus 6 dB.
+
+broadcast receiver: digital terrestrial television broadcast receiver comprising of at least a tuner and demodulator
+
+broadcast receiver tuner port: DTT receiver tuner RF input connector
+
+licensed power: highest rms power of the active portions of the signal measured over a specific time period
+NOTE:	In the case of interference power measurements, this is the reference power used for I/C calculations in the present document. Typically for cases of LTE interference, this power is measured with a spectrum analyser in zero span with a gated power measurement function and rms detector over a period equal to an LTE symbol time. Alternatively it can be calculated by measuring the long term rms power and adding the appropriate LAPR from table 5.
+
+long term rms power: rms power of the signal measured over a period long enough to smooth out any fluctuations in the signal power over time such as those due to transmission bursts
+
+NOTE: This can be measured on an average power meter with an input filter time constant set high enough to average out fluctuations in the measured signal power or alternatively using a spectrum analyser with settings shown in table D.1.
+
+onset of picture degradation: minimum time between successive errors in the displayed video is 15 seconds
+
+radio equipment: product or relevant component thereof capable of communication by means of the emission and/or reception of radio waves utilizing the spectrum allocated to terrestrial/space radio communication
+
+NOTE:	For the purposes of the present document the radio equipment is a digital terrestrial television broadcast receiver comprising of at least a tuner and demodulator.
+
+receiver overloading: interfering signal level expressed in dBm, above which the receiver begins to lose its ability to discriminate against interfering signals at frequencies differing from that of the wanted signal due to the onset of strong non-linear behaviour
+NOTE 1:  In the present document the overload level is determined by the onset of picture degradation.
+
+NOTE 2: Above the overloading level the receiver will behave in a non-linear way, but does not necessarily fail immediately depending on the receiver and interference characteristics.
+
+sensitivity: maximum usable sensitivity is defined as the minimum receiver Radio Frequency (RF) input signal level or field strength able to produce a specified analogue SINAD ratio or Bit Error Ratio (BER), or other specified output performance which depends on this input signal level
+
+NOTE:	In the present document receiver sensitivity is determined by the onset of picture degradation.
+
+3.2	Symbols
+For the purposes of the present document, the following symbols apply: C	Wanted signal
+GC	Coupling Gain
+I	Interferer signal
+Ilic	Licensed power
+Irms	Long term rms power
+PRX_UE	Received UE interference power
+PUE	UE transmitted power
+ 
+
+3.3	Abbreviations
+For the purposes of the present document, the following abbreviations apply: ACE	Active Constellation Extension
+ACLR	Adjacent Channel Leakage power Ratio
+ACS	Adjacent Channel Selectivity
+AGC	Automatic Gain Control
+BER	Bit Error Ratio
+BS	Base Station for mobile communications
+CEPT	European Conference of Postal and Telecommunications Administrations DTG	UK Digital TV Group
+DTT	Digital Terrestrial Television
+DVB-T	Digital Video Broadcast Terrestrial - first generation [i.4] DVB-T2	Digital Video Broadcast Terrestrial - second generation [i.5] FEC	Forward Error Correction
+FEF	Future Extension Frame
+FFT	Fast Fourier Transform
+HEM	High Efficiency Mode
+ISSY	Input Stream SYnchronizer
+QAM	Quadrature Amplitude Modulation
+LAPR	Licensed to Average Power Ratio
+NOTE:	This is the ratio of the licensed power (described above) to the long term rms power (described above) of the signal.
+
+LDPC	Low Density Parity Check (codes)
+LTE	Long Term Evolution
+PAPR	Peak to Average Power Ratio
+PLP	Physical Layer Pipe
+64-QAM	64-ary Quadrature Amplitude Modulation 256-QAM	256-ary Quadrature Amplitude Modulation RF	Radio Frequency
+SINAD	(Signal + Noise + Distortion)/(Noise + Distortion) ratio
+SISO	Single Input Single Output (meaning one transmitting and one receiving antenna) TFS	Time-Frequency Slicing
+UE		User Equipment for mobile communications NOTE:	Example handsets, dongles, etc.
+UHF	Ultra High Frequency
+VHF	Very High Frequency
+
+
+4	Technical requirements specifications
+
+4.1	Environmental profile
+The technical requirements of the present document apply under the environmental profile for operation of the equipment, which shall be declared by the manufacturer. The equipment shall comply with all the technical requirements of the present document at all times when operating within the boundary limits of the declared operational environmental profile.
+
+NOTE:	The applicability of the different tests as defined in annex E may vary depending upon the selected country profile.
+ 
+
+4.2	Conformance requirements
+
+4.2.1	DVB-T and DVB-T2 configurations for testing
+Representative DVB-T and DVB-T2 configurations used for conformance specification and testing are shown in tables 2 and 3. These are used in the Nordig specification test plan [i.1].
+
+Table 2: DVB-T configuration
+
+Parameter	Value for "7 MHz" VHF tests	Value for "8 MHz" UHF tests
+Bandwidth	6,66 MHz	7,61 MHz
+FFT size	8K	8K
+Modulation	64-QAM	64-QAM
+Hierarchy	Non-Hierarchical	Non-Hierarchical
+Guard interval	1/4	1/4
+Code rate	2/3	2/3
+Channel Bandwidth	7 MHz	8 MHz
+
+
+Table 3: DVB-T2 configuration
+
+Parameter	Value for "7 MHz" VHF tests	Value for "8 MHz" UHF tests
+Bandwidth	6,66 MHz	7,77 MHz
+FFT	32k	32k
+Carrier mode	Normal	Extended
+SISO/MISO	SISO	SISO
+Guard Interval	1/16	1/16
+Version	1.2.1	1.2.1
+Number of symbols/frame (Lf)	42	62
+Pilot pattern	PP4	PP4
+TFS	No	No
+FEF	Not used	Not used
+Auxiliary streams	Not used	Not used
+Subslices / T2 frame	1	1
+Frames / Superframe	2	2
+L1 post FEC type	16k LDPC (see note 1)	16k LDPC (see note 1)
+L1 repetition	0	0
+L1 post extension	No	No
+L1 post modulation	64 QAM	64-QAM
+L1 post scrambling	None	None
+L1_ACE_MAX	0 (see note 2)	0 (see note 2)
+L1 bias balancing cells	No	No
+PAPR	L1-ACE &amp; TR (see note 3)	L1-ACE &amp; TR (see note 3)
+PAPR: Vclip	3,1 V (see note 1)	3,1 V (see note 1)
+PAPR: Number of iterations	10 (see note 1)	10 (see note 1)
+TS bit rate (Mbit/s)	31,146	36,552
+Input mode	Mode A (single PLP mode)	Mode A (single PLP mode)
+Number of PLPs	1	1
+PLP type	Data type 1	Data type 1
+Constellation rotation	Yes	Yes
+PLP FEC type	64k LDPC	64k LDPC
+FEC Frame length	64 800 (see note 4)	64 800 (see note 4)
+Baseband Mode	High efficiency mode (HEM)	High efficiency mode (HEM)
+ISSY	None	None
+In band signalling	Disabled	Disabled
+Null packet deletion	Disabled	Disabled
+Time interleaver length	3	3
+Frame interval	1	1
+Time interleaver type	0	0
+T2 frames / Interleaver frame	1 (see note 5)	1 (see note 5)
+ 
+
+
+Parameter	Value for "7 MHz" VHF tests	Value for "8 MHz" UHF tests
+FEC Blocks / Interleaving Frame	132	200
+Code rate	2/3	2/3
+Modulation	256-QAM	256-QAM
+NOTE 1: This parameter is preset on some modulators. NOTE 2:   This value disables L1 ACE operation.
+NOTE 3: This parameter is referred to as "TR" on some modulators. NOTE 4:   This parameter is referred to as "Normal" on some modulators.
+NOTE 5:  Derived value shown for information only. Forced to 1 when time interleaver type = 0.
+
+
+4.2.2	Interference and wanted test signals
+Three LTE waveforms with 10 MHz bandwidth are used in the present document as interference sources for the receiver conformance specification and tests. These waveforms are based on recordings from LTE BS and UE equipment which have been converted into a suitable format for replay on laboratory vector signal generators. Two of these waveforms have been selected because they are known to exercise the operation of DTT receiver automatic gain control (AGC) systems which is a key area for receiver performance optimization. In particular tests using the UE waveform may require receiver optimization. These waveforms are contained in archive en_303340v010102p0.zip which accompanies the present document. More waveform details are given in annex B.
+The wanted DVB-T and DVB-T2 test signals shall carry a video stream containing moving images and an audio signal. Recommendation ITU-R BT.1729 test signal [i.10] may be used.
+
+4.2.3	Sensitivity
+
+4.2.3.1	Definition
+The maximum usable sensitivity is defined as the minimum receiver Radio Frequency (RF) input signal level or field strength able to produce a specified analogue SINAD ratio or Bit Error Ratio (BER), or other specified output performance which depends on this input signal level. In the present document receiver sensitivity is determined by the onset of picture degradation.
+
+4.2.3.2	Method of Measurement
+
+4.2.3.2.1	Test arrangement description
+The test arrangement is shown in figure 1.
+
+4.2.3.2.2	Test procedure
+The steps of the test procedure are given below:
+
+a)	The wanted signal, provided by signal generator-C, shall be set to the wanted signal frequency as shown in table 4 and configured with the appropriate DTT mode parameters (tables 2 and 3).
+
+b)	Determine the attenuation of the cables, splitters, 50/75 ohm matching pad.
+c)	Set the level of the wanted signal C at the broadcast receiver tuner port to -50 dBm and note the value of the "attenuator C" (= AC1).
+d)	Tune the DTT receiver to the wanted channel.
+
+e)	Increase the "attenuator C" sufficiently to cause complete picture failure.
+
+f)	Adjust "attenuator C" gradually until the onset of picture degradation occurs. Force the receiver under test to re-acquire and re-adjust "attenuator C" until the onset of picture degradation occurs. Note the attenuator setting (= AC2).
+g)	The receiver sensitivity shall be recorded in the measurement record (table C.1) as:
+-50 - (AC2 - AC1) dBm	(1)
+ 
+
+h)	Repeat step a) to g) for the remaining frequencies in table 4.
+
+
+
+
+Figure 1: Measurement arrangement for sensitivity tests
+
+4.2.3.3	Limits
+The sensitivity limits are shown in table 4. The equipment shall be tested in its normal operating mode.
+
+Table 4: Receiver sensitivity
+
+Test number	Test description	C
+wanted signal centre frequency (MHz)	Required sensitivity limit for DTT configurations in tables 2 and 3 (dBm)
+			DVB-T	DVB-T2
+1	Sensitivity VHF	198,5	-77	-75
+2	Sensitivity UHF	666	-77	-75
+NOTE 1:   For applicability of tests see annex E.
+NOTE 2: Measurement studies of typical performance show measured sensitivity could be 6 dB better, however the limits above allow for manufacturing tolerance and measurement uncertainty.
+
+
+4.2.4	Adjacent channel selectivity
+
+4.2.4.1	Definition
+In the present document, adjacent channel selectivity (I/C) is defined as the measure of the capability of the receiver to receive a wanted modulated signal without exceeding a given degradation due to the presence of an unwanted signal which differs in frequency from the wanted signal by an amount equal to the adjacent channel separation for which the equipment is intended. In the present document adjacent channel selectivity is determined by the onset of picture degradation.
+
+NOTE 1: The interference power I is equal to the licensed power of the interferer. This definition does not have the same meaning as the term "Adjacent Channel Selectivity" (ACS) used in other organizations such as ITU, CEPT, and in co-existence studies. The adjacent channel selectivity in the present document is equivalent to the measured I/C ratio.
+
+NOTE 2: In the present document this definition also applies to an unwanted signal at a specified frequency offset in a non-adjacent channel.
+ 
+
+4.2.4.2	Method of Measurement
+
+4.2.4.2.1	Test arrangement description
+The basic measurement arrangement is shown in the top half of figure 2. Other arrangements may also be used - for example a widely deployed test configuration shown at the bottom of figure 2 uses a single item of test equipment that combines generator C and generator I. Some signal generators include precision RF attenuators which can be used in place of "attenuator I" and "attenuator C". Some generators have an optimum output power level where the ACLR is at a maximum and in these circumstances it may be preferable to use external attenuators to maintain the optimum ACLR over the interference power level used for the test.
+
+Additional information on the optional elements of the test arrangement, measurement techniques, recommended instrument settings are given in annex D.
+
+4.2.4.2.2	Requirements for the ACLR of the interfering signal
+See annex F.
+
+4.2.4.2.3	Test procedure
+a)	Two signal generators, I and C, shall be connected to the receiver via a combining network.
+
+b)	Determine the attenuation of the cables, combiner, splitter and 50/75 ohm matching pad.
+
+c)	The wanted signal, provided by signal generator C, shall be set to the wanted signal frequency C as shown in table 5 and configured with the appropriate DTT mode parameters (tables 2 and 3). Turn this generator off (or to at least 30 dBc below the interferer signal) maintaining output impedance.
+
+d)	The unwanted signal I, provided by signal generator I, shall be configured with the required interferer waveform and interferer signal frequency as shown in table 5.
+
+e)	The unwanted signal power at the broadcast receiver tuner port shall be set to the rms interferer power Irms in table 5. This power shall be verified with the power meter or spectrum analyser. Recommended instrument settings are described in clause D.2.
+
+f)	Turn on signal generator C and adjust "attenuator C" so that the rms powers of the interferer I and wanted signal C are equal. Note this attenuator setting (= AC1).
+g)	Tune the DTT receiver to the wanted channel.
+
+h)	Increase "attenuator C" in 1 dB steps or less until the onset of picture degradation occurs (see clause 3.1 for definition). Force the receiver under test to re-acquire and re-adjust "attenuator C" until the onset of picture degradation occurs. Note the attenuator setting (= AC2).
+i)	The adjacent channel selectivity (I/C) shall be recorded in the measurement record (table C.2) as AC2-AC1 + LAPR dB, where LAPR is the licensed to average power ratio shown in table 5. Alternatively the measured wanted signal power C shall be recorded in the measurement record (table C.2) as Irms - (AC2 - AC1) dBm.
+j)	Repeat step b) to i) for the remaining tests in table 5.
+ 
+
+
+
+ 
+
+Figure 2: Generic measurement arrangement for adjacent channel selectivity, blocking and overloading tests
+ 
+15	ETSI EN 303 340 V1.1.2 (2016-09)
+
+4.2.4.3	Limits
+The I/C limits are shown in table 5. The equipment shall be tested in its normal operating mode.
+
+Table 5: Adjacent channel selectivity requirements
+
+
+Test	
+Interferer (I) type	
+I
+interference test signal waveform name	
+C
+wanted signal centre frequency (MHz)	
+I
+interferer centre frequency (MHz)	
+Ilic     (licensed) (dBm)	
+Irms (rms)
+(dBm)	
+I    LAPR
+
+(dB)	
+Minimum required I/C limit (where I = Ilic) for DTT configurations in tables 2 and 3
+(dB)	
+Equivalent wanted level Crms for DTT configurations in tables 2 and 3 (dBm)
+								
+DVB-T	
+DVB-T2	
+DVB-T	
+DVB-T2
+1
+(see notes 1
+and 2)	10 MHz LTE
+800 BS light load (near idle)	LTE_BS-
+idle_V3_synth	
+786	
+796	
+-15	
+-23,3	
+8,3	
+35	
+36	
+-50	
+-51
+2
+(see note 2)	10 MHz LTE
+700 BS light load (near idle)	LTE_BS-
+idle_V3_synth	
+690	763
+(see note 3)	
+-15	
+-23,3	
+8,3	
+43	
+43	
+-58	
+-58
+3
+(see note 2)	10 MHz LTE
+700 UE Video- Stream	Short_UE-Video- Stream_V2	
+690	
+708	
+-25	
+-42,7	
+17,7	
+33	
+38	
+-58	
+-63
+4
+(see note 2)	N-1 UHF	8 MHz DVB-T	482	474	-30	-30	0	25	25	-55	-55
+5
+(see note 2)	N+1 UHF	8 MHz DVB-T	482	490	-30	-30	0	25	25	-55	-55
+NOTE 1: For broadcast receivers that do not receive DVB-T/T2 signals above 698 MHz, test 1 is not applicable. NOTE 2:   For applicability of tests see annex E.
+NOTE 3:  It is acceptable to use an alternative lower interference frequency such as 761 MHz. This may be necessary due to test equipment limitations.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ETSI
+ 
+
+
+4.2.5	Blocking
+
+4.2.5.1	Definition
+The measure of the capability of the receiver to receive a wanted modulated signal without exceeding a given degradation due to the presence of an unwanted signal at any frequency other than those of the spurious responses or of the adjacent channels. In the present document receiver blocking is determined by the onset of picture degradation.
+
+NOTE:	The wanted signal level in the blocking tests of the present document is fixed at the specified receiver sensitivity level plus 6 dB.
+
+4.2.5.2	Method of Measurement
+
+4.2.5.2.1	Test arrangement description
+See clause 4.2.4.2.1.
+
+4.2.5.2.2	Requirements for the ACLR of the interfering signal
+See annex F.
+
+The interference signal I is a fully loaded LTE-BS signal with 10 MHz channel bandwidth.
+
+4.2.5.2.3	Test procedure
+a)	Two signal generators, I and C, shall be connected to the receiver via a combining network.
+
+b)	Determine the attenuation of the cables, combiner, splitter and 50/75 ohm matching pad.
+
+c)	The wanted signal, provided by signal generator C, shall be set to the wanted signal frequency as shown in table 6 and configured with the appropriate DTT mode parameters (tables 2 and 3).
+
+d)	The unwanted signal I, provided by signal generator I, shall be configured with the required interferer waveform, interferer signal frequency as shown in table 6.
+e)	Adjust "attenuator C" to set the wanted level to -40 dBm at the broadcast receiver tuner port. This power shall be verified with the power meter or spectrum analyser. Then reduce the wanted signal power to the value of Crms in table 6 by increasing "attenuator C" by 31 dB for test 1 or by 29 dB for test 2.
+f)	Adjust "attenuator I" to set the interferer level to -40 dBm at the broadcast receiver tuner port. This power shall be verified with the power meter or spectrum analyser. Then reduce the interferer signal power to that of the wanted signal (Crms in table 6) by increasing "attenuator I" by 31 dB for test 1 or by 29 dB for test 2. Note the value of "attenuator I" (= AI1).
+g)	Tune the DTT receiver to the wanted channel.
+
+h)	Reduce "attenuator I" until the onset of picture degradation occurs (see clause 3.1 for definition). Force the receiver under test to re-acquire and re-adjust "attenuator I" until the onset of picture degradation occurs. Note the attenuator setting (= AI2).
+
+i)	The blocking level shall be recorded in the measurement record (table C.3) as Crms + AI1 - AI2 dBm where Crms is the value given in table 6.
+
+4.2.5.3	Limits
+The blocking limits are shown in table 6. The equipment shall be tested in its normal operating mode.
+ 
+
+Table 6: Blocking requirements
+
+Test	Interferer (I) type	I
+interference test signal waveform name	C
+wanted signal centre frequency (MHz)	I
+centre frequency (MHz)	Crms (rms)
+(dBm)	Required blocking level Irms for DTT configurations in tables 2 and 3 (dBm)
+						DVB-T	DVB-T2
+1
+(see note 3)	10 MHz LTE
+700 BS fully loaded	LTE_BS-
+100PC_synth	
+690	763
+(see note 1)	-71
+(see note 2)	
+-25	
+2
+(see note 3)	10 MHz LTE
+700 BS fully loaded	LTE_BS-
+100PC_synth	
+690	763
+(see note 1)	-69
+(see note 2)		
+-25
+NOTE 1:  It is acceptable to use an alternative lower interference frequency such as 761 MHz subject to the limitations in the definition of blocking in the present document. This may be necessary due to test equipment limitations.
+NOTE 2: The values of Crms are equal to the defined sensitivity specification + 6 dB. NOTE 3:   For applicability of tests see annex E.
+NOTE 4: For the purposes of this test, the value of Irms is approximately equivalent to Ilic, given that the LTE BS interferer signal is fully loaded.
+
+
+4.2.6	Overloading
+
+4.2.6.1	Definition
+Overloading is the interfering signal level expressed in dBm, above which the receiver begins to lose its ability to discriminate against interfering signals at frequencies differing from that of the wanted signal due to the onset of strong non-linear behaviour. In the present document the overload level is determined by the onset of picture degradation.
+
+NOTE:	Above the overloading level the receiver will behave in a non-linear way, but does not necessarily fail immediately depending on the receiver and interference characteristics.
+
+4.2.6.2	Method of Measurement
+
+4.2.6.2.1	Test arrangement description
+See clause 4.2.4.2.1.
+
+4.2.6.2.2	Requirements for the ACLR of the interfering signal
+See annex F.
+
+The interference signal I is a fully loaded LTE-BS signal with 10 MHz channel bandwidth.
+
+4.2.6.2.3	Test procedure
+a)	Two signal generators, I and C, shall be connected to the receiver via a combining network.
+
+b)	Determine the attenuation of the cables, combiner, splitter and 50/75 ohm matching pad.
+
+c)	The wanted signal, provided by signal generator C, shall be set to the wanted signal frequency as shown in table 7 and configured with the appropriate DTT mode parameters (tables 2 and 3).
+
+d)	The unwanted signal I, provided by signal generator I, shall be configured with the required interferer waveform, interferer signal frequency as shown in table 7.
+
+e)	Adjust "attenuator C" to set the wanted level to Crms at the broadcast receiver tuner port. This power shall be verified with the power meter or spectrum analyser.
+ 
+
+f)	Adjust "attenuator I" to set the interferer level to same level as Crms at the broadcast receiver tuner port. This power shall be verified with the power meter or spectrum analyser. Note the value of "attenuator I" (= AI1).
+g)	Tune the DTT receiver to the wanted channel.
+
+h)	Reduce "attenuator I" until the onset of picture degradation occurs (see clause 3.1 for definition). Force the receiver under test to re-acquire and re-adjust "attenuator I" until the onset of picture degradation occurs. Note the attenuator setting (= AI2).
+
+i)	The overload level shall be recorded in the measurement record (table C.4) as Crms + AI1 - AI2 dBm where Crms is the value shown in table 7.
+
+4.2.6.3	Limits
+The required overloading limits are shown in table 7.
+
+Table 7: Overloading requirements
+
+Test	Interferer
+(I) type	I
+interference test signal waveform name	C
+wanted signal centre frequency (MHz)	I
+centre frequency (MHz)	Crms (rms)
+(dBm)	Required overload level Irms for DTT configurations in tables 2 and 3
+(dBm)
+						DVB-T	DVB-T2
+1.
+Broadcast receivers with optional preamplifier switched on - initial target (see notes 1, 2 ,3 and 4)	10 MHz
+LTE 700
+BS fully loaded	LTE_BS-
+100PC_synth	690	763
+(see note 1)	-35	-12	-12
+2.
+Broadcast receivers with optional preamplifier switched off
+(see notes 1, 2 and 4)	10 MHz
+LTE 700
+BS fully loaded	LTE_BS-
+100PC_synth	690	763
+(see note 1)	-35	-4	-4
+3
+Broadcast receivers without optional preamplifier
+(see notes 1, 2 and 4)	10 MHz
+LTE 700
+BS fully loaded	LTE_BS-
+100PC_synth	690	763
+(see note 1)	-35	-4	-4
+NOTE 1: It is acceptable to test compliance at an alternative lower interference frequency (e.g. 761 MHz). This may be necessary due to test equipment limitations.
+NOTE 2:   For applicability of tests see annex E.
+NOTE 3: For broadcast receivers with optional preamplifier switched on, test 1 will apply at the initial introduction of the RE-D Directive [i.3]. Due to the short timescales imposed by the RE-D Directive [i.3], only existing broadcast receiver designs can be considered in these timescales, because design changes to broadcast receivers can take up to three years. Further study and prototyping by the manufacturers of broadcast receivers, tuner modules and silicon devices is necessary to assess the feasibility of the proposed enhanced target overload limit of test 2. This study will be completed by 13 June 2017 when the limits for test 1 can be reviewed with an intention of revising the limit towards the target values described in test 2, applicable from 13 June 2019.
+NOTE 4:   For the tests in the above table, "optional preamplifier" means an additional user controllable amplifier before the actual tuner IC device in the broadcast receiver, which may be available to the user and documented in the user documentation. The manufacturer shall declare the presence of an optional preamplifier in the declaration of conformity and how to operate it in the test report or user documentation.
+
+
+4.2.7	Unwanted emissions in the spurious domain
+
+4.2.7.1	Definition
+Unwanted emissions in the spurious domain are emissions from the equipment in the frequency range defined by CEPT/ERC/Recommendation 74-01E [i.8].
+ 
+
+4.2.7.2	Method of Measurement
+Manufacturers shall provide a representative sample of the receiver system. The level of spurious emissions shall be measured according to CENELEC EN 55032 [1], clause 6.3, clause 8, table A.1, clause A.8.5 in table A.8, annex B, clause C.2.1, clause C.2.2, clause C.2.3, clause C.3.1, clause C.3.2, clause C.3.3, clause C.3.4, clause C.3.7, clause C.4.2, clause C.4.4 and annex D and carried out by conducted (conducted differential voltage) emissions from an external RF port as well as radiated emissions from the cabinet and structure of the equipment (cabinet radiation).
+
+4.2.7.3	Limits
+Limits in CENELEC EN 55032 [1], table A.4, table A.5 and clause A.13.1 in table A.13 shall be respected. The equipment shall be tested in its normal operating mode.
+
+
+5	Testing for compliance with technical requirements
+
+5.1	Environmental conditions for testing
+The equipment shall be tested under normal test conditions according to the relevant product and basic standards or to the information accompanying the equipment, which are within the manufacturers declared range of humidity, temperature and supply voltage. The test conditions shall be recorded in the test report.
+
+5.2	Interpretation of the measurement results
+The interpretation of the results recorded in a test report for the measurements described in the present document shall be as follows:
+
+•	the measured value related to the corresponding limit will be used to decide whether an equipment meets the requirements of the present document;
+
+•	the value of the measurement uncertainty for the measurement of each parameter shall be included in the test report;
+•	the recorded value of the measurement uncertainty shall be, for each measurement, equal to or lower than the figures in table 8.
+
+For the test methods, according to the present document, the measurement uncertainty figures shall be calculated and shall correspond to an expansion factor (coverage factor) k = 1,96 or k = 2 (which provide confidence levels of respectively 95 % and 95,45 % in the case where the distributions characterizing the actual measurement uncertainties are normal (Gaussian)). Principles for the calculation of measurement uncertainty are contained in ETSI
+TR 100 028 [i.6] and [i.7], in particular in annex D of the ETSI TR 100 028-2 [i.7]. Table 8 is based on such expansion factors.
+Table 8: Maximum measurement uncertainty
+
+Parameter	Uncertainty
+Wanted signal power measured in the sensitivity tests clause 4.2.3
+±3 dB
+I/C ratio measured in the adjacent channel selectivity tests clause 4.2.4
+±3 dB
+Blocking level measured in the blocking tests clause 4.2.5
+±3 dB
+Overload level measured in the overloading tests clause 4.2.6
+±3 dB
+Unwanted emissions in the spurious domain clause 4.2.7
+See CENELEC EN 55032 [1], clause 11
+
+ 
+
+
+ 
+Annex A (normative):
+Relationship between the present document and the essential requirements of Directive 2014/53/EU
+The present document has been prepared under the Commission's standardisation request C(2015) 5376 final [i.11] to provide one voluntary means of conforming to the essential requirements of Directive 2014/53/EU on the harmonisation of the laws of the Member States relating to the making available on the market of radio equipment and repealing Directive 1999/5/EC [i.3].
+
+Once the present document is cited in the Official Journal of the European Union under that Directive, compliance with the normative clauses of the present document given in table A.1 confers, within the limits of the scope of the present document, a presumption of conformity with the corresponding essential requirements of that Directive, and associated EFTA regulations.
+
+Table A.1: Relationship between the present document and the essential requirements of Directive 2014/53/EU
+
+Harmonised Standard ETSI EN 303 340
+The following requirements are relevant to the presumption of conformity under the article 3.2 of Directive 2014/53/EU [i.3]
+
+Requirement	Requirement Conditionality
+No	Description	Reference: Clause No	U/C	Condition
+1	Receiver sensitivity	4.2.3
+U	
+2	Receiver adjacent channel selectivity	4.2.4
+U	
+3	Receiver blocking	4.2.5
+U	
+4	Receiver overloading	4.2.6
+U	
+5	Unwanted emissions in the spurious domain	4.2.7
+U	
+
+Key to columns: Requirement:
+No	A unique identifier for one row of the table which may be used to identify a requirement.
+Description	A textual reference to the requirement.
+
+Clause Number Identification of clause(s) defining the requirement in the present document unless another document is referenced explicitly.
+
+Requirement Conditionality:
+U/C	Indicates whether the requirement shall be unconditionally applicable (U) or is conditional upon the manufacturers claimed functionality of the equipment (C).
+
+Condition	Explains the conditions when the requirement shall or shall not be applicable for a requirement which is classified "conditional".
+
+Presumption of conformity stays valid only as long as a reference to the present document is maintained in the list published in the Official Journal of the European Union. Users of the present document should consult frequently the latest list published in the Official Journal of the European Union.
+Other Union legislation may be applicable to the product(s) falling within the scope of the present document.
+ 
+
+
+ 
+Annex B (informative): Summary of study work
+
+B.1	Overview
+The present document focuses on the requirements to handle the most likely sources of interference to digital terrestrial television (DTT) receivers following the first and second digital dividends. In particular the working group study has concentrated on stimulating good receiver behaviour in the presence of bursty interference signals, such as from LTE user equipment (UE) which is important for the deployment of LTE 700 MHz services because the UE transmissions starting at 703 MHz (channel edge) are only 9 MHz away from the top edge of DTT channel 48 (694 MHz)
+(figure B.1). This can be compared to the LTE 800 MHz situation where the UE transmissions are separated from DTT channel 60 by 42 MHz (figure B.2).
+
+The study has focused on fixed rooftop reception of DTT using standard antennas without amplification. Interference immunity specifications for external amplifiers such as mast head amplifiers, booster amplifiers, distribution amplifiers and amplified antennas used with portable receivers are outside the scope of the present document.
+
+The result of the study is a specification including tests for receiver performance against interference from LTE 800 MHz BS, LTE 700 MHz BS, and LTE 700 MHz UE, using as interfering sources, representative bursty LTE waveforms based on recordings from LTE BS and UE equipment. These specifications were based on statistical
+analysis of 26 DTT receiver tests for LTE 700 MHz and 37 DTT receiver tests for LTE 800 MHz interference made on recent DVB-T/T2 receiver designs and tuner silicon. The receivers tested were dated between 2012 and 2015 and a high proportion of these receivers already conformed to existing DTG and Nordig specifications.
+
+
+
+Figure B.1: Example spectrum plan for LTE 700 MHz
+
+
+
+Figure B.2: Example spectrum plan for LTE 800 MHz
+
+
+B.2	Selection of interferer waveforms
+
+B.2.1	UE waveform
+The LTE UE signal is typically more bursty than base station (BS) signals due to the likelihood of occasional transmitted bursts from a single user separated by long gaps, rather than frequent bursts (including regular pilot reference symbols) to multiple users from a BS. It is this bursty characteristic of the UE signal that can be particularly challenging to DTT receiver automatic gain control (AGC) operation and this was identified as a potential area of receiver improvement that could be stimulated by setting appropriate conformance tests in the present document using a suitable UE interference signal.
+ 
+
+Several different 10 MHz LTE UE signals with different traffic loads were recorded whilst connected to a live LTE 800 MHz network. These signals were replayed in laboratory tests at the most critical co-existence frequency of 708 MHz to measure the performance of a range of modern DTT receivers (up to 3 years old) operating on channel
+48 (690 MHz) (9 MHz guard band). From those early tests the "short_UE-Video-Stream_V2" waveform was selected as the most appropriate interferer signal for more extensive receiver testing for the following reasons:
+
+•	It was a signal representative of terminal traffic from a real video streaming application.
+•	It was a signal carried by a real mobile network LTE-800.
+•	It was a signal representative of that from modern 4G smart phones.
+•	It was a repetitive signal that could be truncated in a valid way to facilitate rapid testing (truncated to 1 second approximately).
+
+•	It was an LTE signal with particularly challenging characteristics for measured DTT receivers whose testing would lead to significant improvement in the presence of LTE interference.
+The time domain plot of this waveform is shown in figure B.3. The regular bursts of activity are separated by one second gaps with some low level background traffic from the UE operating system.
+
+The "short_UE-Video-Stream_V2" waveform has been converted into a popular signal generator format for receiver testing purposes. The file header has been adjusted to display the licensed power rather than the rms power on the signal generator for convenience in testing.
+
+ 
+
+CENTER FREQUENCY
+708 MHz
+Ref -16 dBm
+ 
+
+
+
+*	Att  5 dB
+ 
+
+RBW 50 MHz
+*	VBW 10 MHz SWT 3 s
+ 
+
+-20
+
+
+-30
+
+
+-40
+
+
+-50
+
+
+-60
+
+
+-70
+
+
+-80
+
+
+-90
+
+
+-100
+
+
+-110
+
+
+Center 708 MHz	300 ms/
+
+Figure B.3: Zero span plot of "short_UE-Video-Stream_V2" waveform (1 second loop)
+
+
+B.2.2	BS waveforms
+For the base station tests, the "LTE_BS_idle_V3_synth" waveform specified in the present document was synthesized from the existing so called "LTE_BS_idle" recorded waveform which is widely known to challenge the AGCs of DTT receivers. The synthesized version has similar time and frequency domain characteristics to the existing "LTE_BS_idle" waveform and gives similar receiver adjacent channel selectivity results, but has the advantage of being available to ETSI for use with the present document. Other improvements in the synthesized waveform include the removal of an artefact, the file length trimmed to a whole number of LTE symbols and the file header adjusted to display the licensed power on the signal generator rather than the rms power for convenience in testing. Figure B.4 shows a 50 ms section of this waveform which largely consists of pilot reference symbols plus some occasional short data bursts. Figure B.5 shows a swept frequency plot of this waveform. More correctly this waveform could be termed "near idle" rather than true idle where no data is sent.
+ 
+
+For the blocking and overloading tests, the "LTE_BS-100PC_synth" waveform specified in the present document was synthesized from the existing so called "LTE_BS-100PC recorded waveform. This is a fully loaded LTE base station signal with a 10 MHz bandwidth. Figure B.6 shows a 50 ms section of this waveform and figure B.7 shows a swept frequency plot of this waveform.
+
+Both these waveforms have been converted into a popular signal generator format for receiver testing purposes and support for other signal generator formats is planned.
+
+ 
+
+
+
+Ref -7 dBm
+ 
+
+
+
+* Att	5 dB
+ 
+RBW 50 MHz
+*	VBW 10 MHz SWT 50 ms
+ 
+
+-10
+
+-20
+
+-30
+
+-40
+
+-50
+
+-60
+
+-70
+
+-80
+
+-90
+
+-100
+
+Center 796 MHz	5 ms/
+
+Figure B.4: Zero span plot of a 50 ms section of "LTE_BS-idle_V3_synth" waveform
+
+ 
+
+
+
+Ref -28 dBm
+ 
+
+
+
+* Att	5 dB
+ 
+*	RBW 10 kHz
+*	VBW 100 kHz
+*	SWT 10 s
+ 
+
+-30
+-40
+-50
+-60
+-70
+
+-80
+
+-90
+-100
+
+-110
+-120
+
+ 
+Center 796 MHz
+ 
+1.5 MHz/
+ 
+Span 15 MHz
+ 
+
+Tx Channel
+Bandwidth	10 MHz	Power	-23.32 dBm
+
+Figure B.5: Swept frequency plot of "LTE_BS-idle_V3_synth" waveform
+ 
+
+ 
+
+SWEEP TIME
+50 ms
+Ref -6 dBm
+ 
+
+
+
+
+* Att  5 dB
+ 
+
+RBW 50 MHz
+*	VBW 10 MHz SWT 50 ms
+ 
+
+-10
+
+
+-20
+
+
+-30
+
+
+-40
+
+
+-50
+
+
+-60
+
+
+-70
+
+
+-80
+
+
+-90
+
+
+-100
+
+
+Center 763 MHz	5 ms/
+
+Figure B.6: Zero span plot of a 50 ms section of "LTE_BS-100PC_synth" waveform
+
+ 
+
+SWEEP TIME
+10 s
+ 
+
+*	RBW 10 kHz
+*	VBW 100 kHz
+*	SWT 10 s
+ 
+
+-30
+
+-40
+
+-50
+
+-60
+
+-70
+
+-80
+
+-90
+
+-100
+ 
+
+-110
+-120
+
+Center  763 MHz
+ 
+
+
+
+
+1.5 MHz/
+ 
+
+
+
+
+Span 15 MHz
+ 
+
+Tx Channel
+Bandwidth	10 MHz	Power	-15.04 dBm
+
+Figure B.7: Swept frequency plot of "LTE_BS-100PC_synth" waveform
+
+
+B.3	Reception conditions for LTE UE 700 MHz interference
+
+B.3.1	Calculation of maximum coupling gain
+Figure B.8 shows the standard reference geometry model used to derive the received UE interference level at the DTT receiver input using a fixed rooftop antenna, taken from clause A.2.1.1 of ECC Report 186 [i.9] using a frequency of 650 MHz. This model uses Recommendation ITU-R BT.419-3 [i.12] template antenna with a 9,15 dBi gain (including feeder cable loss).
+ 
+
+
+
+   
+Figure B.8: Reference model for coupling gain
+
+The maximum theoretical coupling gain GC between the UE at 1,5 m height and the broadcast receiver tuner port taking account of the vertical DTT receive antenna pattern, the maximum loss and receive antenna discrimination from the UE to the DTT antenna is -56,15 - 0,45 dB + 9,15 = -47,45 dB at 650 MHz, or -48,24 dB at 708 MHz. This maximum gain was achieved at a horizontal separation of 22 m. Higher horizontal separations result in a higher propagation losses and lower separations take the UE out of the antenna bore sight, both resulting in lower coupling gains. Similar theoretical coupling gains were calculated in [i.2] along with field measurements of coupling gains using different antenna types.
+
+B.3.2	Calculation of maximum received UE interference power
+The LTE UE transmitted power was taken to be PUE = 23 dBm E.I.R.P.
+
+Therefore the maximum received UE interference power (PRX_UE) at the broadcast receiver tuner port was estimated to be:
+
+PRX_UE	= PUE - GC
+= 23 dBm - 48,24 dB
+
+= -25,24 dBm at 708 MHz
+Thus a received UE interference power of -25 dBm was used for conformance tests in the present document as the worst case UE interference power level likely to be received on the broadcast receiver tuner port via a rooftop antenna. Typical received UE interference levels are likely to be lower than this figure.
+
+
+B.4	Choice of BS interference power in receiver tests
+
+The interference test levels were a pragmatic choice, based on the highest signal level that can be tolerated by current DTT receiver designs (including some safety margin). This is particularly relevant for some DTT receiver products where a high gain preamplifier and signal splitter is needed to achieve a low noise figure in each tuner, but this high gain preamplifier is naturally more sensitive to high level interference.
+ 
+
+
+ 
+Annex C (informative): Measurement records
+Table C.1: Measurement record for sensitivity tests
+
+Test	Required sensitivity limit for DTT configurations in tables 2 and 3
+(dBm)	Measured sensitivity for DTT configurations in tables 2 and 3
+(dBm)	Test temperature
+°C	Test humidity
+%	Measurement uncertainty
+± dB
+	DVB-T	DVB-T2	DVB-T	DVB-T2			
+1 VHF	-77	-75					
+2 UHF	-77	-75					
+
+
+Table C.2: Measurement record for adjacent channel selectivity tests
+
+Test (see note)	Minimum required I/C limit for DTT configurations in tables 2 and 3
+(dB)	Measured I/C for DTT configurations in tables 2 and 3 (see note 2)
+(dB)	Test temperature
+°C	Test humidity
+%	Measurement uncertainty
+± dB
+	DVB-T	DVB-T2	DVB-T	DVB-T2			
+1
+(see note 1)	
+35	
+36					
+2	43	43					
+3	33	38					
+4	25	25					
+5	25	25					
+
+Test (see note)	Equivalent wanted signal level Crms for DTT configurations in tables 2 and 3
+(dBm)	Measured wanted signal level Crms for DTT configurations in tables 2 and 3 (see note 2)
+(dBm)	Test temperature
+°C	Test humidity
+%	Measurement uncertainty
+± dB
+	DVB-T	DVB-T2	DVB-T	DVB-T2			
+1
+(see note 1)	
+-50	
+-51					
+2	-58	-58					
+3	-58	-63					
+4	-55	-55					
+5	-55	-55					
+NOTE 1: For devices that do not receive DVB-T/T2 signals above 698 MHz, test 1 is not applicable. NOTE 2:   It is only necessary to record either I/C or wanted signal level.
+
+
+Table C.3: Measurement record for blocking test
+
+Test	Required blocking level Irms for DTT configurations in tables 2 and 3
+(dBm)	Measured blocking level Irms for DTT configurations in tables 2 and 3
+(dBm)	Test temperature
+°C	Test humidity
+%	Measurement uncertainty
+± dB
+	DVB-T	DVB-T2	DVB-T	DVB-T2			
+1	-25			N/A			
+2		-25	N/A				
+ 
+
+Table C.4: Measurement record for overloading test
+
+Test	Required overload level Irms for DTT configurations in tables 2 and 3
+(dBm)	Measured overload level Irms for DTT configurations in tables 2 and 3
+(dBm)	Test temperature
+°C	Test humidity
+%	Measurement uncertainty
+± dB
+	DVB-T	DVB-T2	DVB-T	DVB-T2			
+1	-12	-12					
+2	-4	-4					
+3	-4	-4					
+ 
+
+
+ 
+Annex D (informative):
+Additional information to assist measurements
+
+D.1	Optional elements of the test arrangement
+Optional elements of the test arrangement described in figure 2 are greyed out such as a computer controller to partially automate the control of test equipment. Other optional elements include an RF isolator to avoid the strong interferer signal affecting the wanted signal generator, and various filter options (see inset of figure 2) to improve the ACLR of the interference generator so as to obtain the best performance from the receiver under test. It is not necessary to permanently connect the power meter/spectrum analyser whilst the receiver measurement is being made, thus eliminating the need for the splitter. It is possible to use a 75	power meter to avoid the splitter shown in figure 2.
+
+
+D.2	Instrument settings for measuring the power of bursty interference signals
+The selectivity tests in clause 4.2.4 require measuring the long term rms power of bursty signals. Long term rms power measurements can be made using an average power sensor plus power meter with an input filter time constant set high enough to smooth out the fluctuations in the bursty interferer signal. Alternatively the power may be measured using a spectrum analyser in zero span or swept frequency mode. Recommended settings for measuring the long term rms power of the interference signal are shown in table D.1.
+
+Table D.1: Recommended spectrum analyser settings for interferer power measurements
+
+Setting	Clause 4.2.4.3 table 5,
+Test 1 &amp; 2	Clause 4.2.4.3 table 5
+Test 3	Clause 4.2.4.3 table 5
+Test 3 (alternative)
+Span	10 MHz to 15 MHz	0 Hz	15 MHz
+Resolution bandwidth	10 kHz	8 MHz	10 KHz
+Video bandwidth	100 kHz	8 MHz	100 KHz
+Sweep time	5 s to 10 s	2 s	30 s
+No of points	401	401	1 250
+Detector/trace mode	RMS/clear write	RMS/clear write	RMS/clear write
+Power measurement	Channel power in 10 MHz bandwidth	Gated power cursors 1,042 seconds apart	Channel power in 10 MHz bandwidth
+
+
+
+D.3	Improving ACLR
+
+In the present document the term ACLR applies to the measurements of an unwanted signal in an adjacent or non- adjacent channel according to the specified frequencies of the wanted and unwanted signals of the test.
+
+Achieving adequate ACLR on wideband interference test signals is important to reduce the impact on I/C measurements. The ideal configuration uses separate signal generators for the wanted and interferer signals which also allow a band pass filter to be added to the interference path to improve the ACLR further as shown in figure 2 of the present document.
+
+The ACLR improvement filter may be a manually variable band pass filter (a), or a computer programmable band pass filter (b). Best performance can be achieved by offsetting the filter slightly over the interferer signal to maximize the attenuation of out of band components falling into the wanted channel. A typical band pass filter suitable for improving ACLR is a 5 section variable band pass filter which is commercially available in both manually tuneable and computer controlled variants. This has a 5 % 3 dB bandwidth and a shape factor of 2,2:1 for 30 dB to 3 dB, and 3,5:1 for 50 dB to 3 dB. An example filter response is shown in figure D.1 where the filter can improve the ACLR of the signal generator by 65,57 dB for test 2 (clause 4.2.4.3, table 5).
+ 
+
+ 
+
+*	RBW 10 kHz
+*	VBW 100 kHz
+*	SWT 10 s
+ 
+
+Marker 1 [T1 ]
+-44.76 dBm
+763.076923077 MHz
+ 
+
+ 
+
+ 
+ A
+ 
+
+
+
+
+
+
+
+
+ 
+
+Center 690 MHz
+
+Tx Channel
+ 
+
+20 MHz/
+ 
+
+Span 200 MHz
+ 
+
+
+
+EXT
+ 
+Bandwidth	8 MHz	Power	-80.73 dBm
+Adjacent Channel
+Bandwidth	10 MHz
+Spacing	73 MHz	Upper	65.57 dB
+
+
+Figure D.1: Frequency response of band pass filter used for ACLR improvement
+Another option (c) in figure 2 uses fixed frequency notch filters centred on the wanted channels to reduce the out of band components of the interferer. A filter bypass may be needed for adjacent channel selectivity test 1 where the interferer and wanted signals are close together in frequency (see clause 4.2.4.3 table 5) if the Ch60 notch filter attenuates the lower edge of the BS interferer spectrum at 791 MHz.
+
+Signal generators often include precision RF attenuators which can be used in place of "attenuator I" and "attenuator C" in figure 2. However some generators have an optimum output power level where the ACLR is maximized and in these circumstances it may be preferable to set the interferer to this optimum power level and then use external attenuators to maintain the optimum ACLR over all interference power levels of the test.
+
+
+D.4	Measuring ACLR
+
+The ACLR measurement can be limited by the spectrum analyser dynamic range, particularly if the ACLR is being improved by the use of a band pass filter. ACLR measurements can be degraded by overloading the spectrum analyser input or by using low signal levels where the spectrum analyser noise floor will limit measurements. The noise correlation function in some spectrum analysers can reduce the effects of analyser noise and improve the ACLR measurement. Optimizing the input attenuator setting, using long sweep times and using an adequate number of points can also be beneficial.
+
+The combined generator plus filter ACLR can easily exceed the dynamic range of the spectrum analyser. In this case the total ACLR can be determined in two steps:
+
+1)	The filter's ACLR contribution can be measured over the band of interest using a wide band noise generator as the input source.
+2)	The measured filter ACLR can then be added to the measured ACLR of the generator itself.
+ 
+
+
+ 
+Annex E (normative): Applicable tests
+
+E.1	Applicable tests for different receiver variants
+The tests in the present document only apply if the DTT broadcast receiver supports the wanted signal configuration used by the test in question. This is summarized in table E.1. The type of receivers covered by the present document are:
+
+•	Capable of DVB-T only, or DVB-T and DVB-T2 reception in the VHF and UHF bands.
+•	Capable of DVB-T only, or DVB-T and DVB-T2 reception in the UHF band.
+•	Capable only of DVB-T2 reception in the VHF and UHF bands.
+•	Capable only of DVB-T2 reception in the UHF band.
+
+Table E.1: Applicable tests for different receiver variants
+
+	Applicable tests
+Wanted signal configuration supported by receiver	Sensitivity tests clause 4.2.3
+(see note 2)	Adjacent channel selectivity tests clause 4.2.4
+(see note 1 and note 3)	Blocking tests clause 4.2.5
+(see note 4)	Overloading tests clause 4.2.6
+(see note 5)
+DVB-T only or				Test-1 (DVB-T) &amp;
+DVB-T &amp; T2,	Test-1 (DVB-T)			Test-2 (DVB-T)
+	Test-2 (DVB-T)			(for broadcast receivers
+VHF &amp; UHF		Test-1 (DVB-T) &amp; (DVB-T2)		with optional preamplifier)
+
+DVB-T only or DVB-T &amp; T2,
+
+UHF only	
+
+
+Test-2 (DVB-T)	Test-2 (DVB-T) &amp; (DVB-T2)		
+		Test-3 (DVB-T) &amp; (DVB-T2)	Test-1 (DVB-T)	Or
+		Test-4 (DVB-T)		
+		Test-5 (DVB-T)		Test-3 DVB-T
+				(for broadcast receivers
+				without optional
+				preamplifier)
+DVB-T2 only,
+
+VHF &amp; UHF	Test-1 (DVB-T2) Test-2 (DVB-T2)			Test-1 (DVB-T2) &amp; Test-2 (DVB-T2)
+(for broadcast receivers
+
+
+DVB-T2 only, UHF only	
+
+
+Test-2 (DVB-T2)	Test-1 (DVB-T2)		with optional preamplifier)
+		Test-2 (DVB-T2)		
+		Test-3 (DVB-T2)	Test-2 (DVB-T2)	Or
+		Test-4 (DVB-T2)		
+		Test-5 (DVB-T2)		Test-3 (DVB-T2)
+				(for broadcast receivers
+				without optional
+				preamplifier)
+NOTE 1: For broadcast receivers that do not receive DVB-T/T2 signals above 698 MHz, Adjacent channel selectivity test 1 is not applicable.
+NOTE 2: Test-1 (DVB-T) (VHF) and Test-2 (DVB-T) (UHF) apply to broadcast receivers capable of either DVB-T only, or DVB-T&amp;T2 reception because DVB-T and DVB-T2 sensitivities are correlated in a given VHF or UHF band.
+NOTE 3: Test-4 (DVB-T) and Test-5 (DVB-T) are UHF tests which apply to broadcast receivers capable of either DVB-T only, or DVB-T&amp;T2 reception in UHF/VHF because DVB-T and DVB-T2 adjacent channel selectivities are correlated and also UHF/VHF selectivities are correlated.
+NOTE 4: Test-1 (DVB-T) is a UHF test which applies to broadcast receivers capable of either DVB-T only, or DVB8T&amp;T2 reception in UHF/VHF because DVB-T and DVB-T2 blocking levels are correlated and UHF/VHF blocking levels are correlated.
+Test-2 (DVB-T2) is a UHF DVB-T2 test which applies to broadcast receivers only capable of DVB-T2 reception in UHF/VHF because UHF/VHF blocking levels are correlated.
+NOTE 5: Test-1 (DVB-T), Test-2 (DVB-T) and Test-3 (DVB-T) are UHF tests which apply to broadcast receivers capable of either DVB-T only, or DVB-T&amp;T2 reception in UHF/VHF because DVB-T and DVB-T2 overload levels are correlated and UHF/VHF overload levels are correlated.
+Test-1 (DVB-T2), Test-2 (DVB-T2), and Test-3 (DVB-T2) are UHF tests which apply to broadcast receivers only capable of DVB-T2 reception in UHF/VHF because UHF/VHF overload levels are correlated.
+ 
+
+
+ 
+Annex F (normative):
+Requirements for the interfering signal minimum ACLR
+The required minimum ACLR level depends on the magnitude of I/C values to be measured. Minimum ACLR values to just pass the tests in the present document are provided in table F.1. These values assume a 3 dB measurement uncertainty and a 3 dB ACLR degradation on the measured performance.
+
+Table F.1: Required interference signal ACLR
+
+
+
+
+Test description	
+
+Assumed AWGN C/N	
+
+I/C requirement	Recommended minimum ACLR including effect of LAPR where applicable (dB)
+Adjacent channel selectivity test 1	
+
+DVB-T C/N = 15 dB	35	48
+Adjacent channel selectivity test 2		43	56
+Adjacent channel selectivity test 3		33	36
+Adjacent channel selectivity tests 4 &amp; 5		25	46
+Blocking test 1		N/A	67
+Overloading test 1		N/A	52
+Adjacent channel selectivity test 1	
+
+DVB-T2 C/N = 19 dB	36	53
+Adjacent channel selectivity test 2		43	60
+Adjacent channel selectivity test 3		38	45
+Adjacent channel selectivity tests 4 &amp; 5		25	50
+Blocking test 2		N/A	69
+Overloading test 1		N/A	56
+ 
+
+
+ 
+Annex G (informative): Change History
+
+Version	Information about changes
+1.1.1	First published version.
+
+
+1.1.2	Version containing editorial changes only:
+•	Clause 4.2.7.2: reference to CENELEC EN 55032 [1] improved.
+•	Clause 4.2.7.3: reference to CENELEC EN 55032 [1] improved.
+•	Table 8: reference to CENELEC EN 55032 [1] improved.
+•	Clause 4.2.7.2: item b) removed because the scope does not include equipment with integral antennas.
+ 
+
+
+ 
+History
+
+Document history
+V1.1.1	May 2016	Publication
+V1.1.2	September 2016	Publication
+		
+		
+		
+</value>
+  </data>
+</root>
